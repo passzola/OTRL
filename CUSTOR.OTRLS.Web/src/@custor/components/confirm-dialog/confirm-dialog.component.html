@@ -1,0 +1,22 @@
+<div fxLayout="column" fxLayoutAlign="center center" fxFlex="35" style="margin: -25px; width:370px">
+
+<!-- <div> -->
+<mat-toolbar color="primary">
+  <mat-toolbar-row >
+    <span>Confirm</span> 
+  </mat-toolbar-row>
+</mat-toolbar>
+<!-- <div style="width: 350px"> -->
+
+  <!-- <h1 matDialogTitle style="color: steelblue;">Confirm</h1> -->
+  <!-- <mat-divider style="margin-top:-20px">
+  </mat-divider>
+  <br> -->
+  <div mat-dialog-content style="font-size: 14px;margin: 20px;">{{confirmMessage}}</div>
+   
+  <div mat-dialog-actions style="margin-left: 70px">
+    <button mat-raised-button class="mat-primary mr-16" (click)="dialogRef.close(true)">Yes</button>
+    <button mat-raised-button (click)="dialogRef.close(false)">Cancel</button>
+  </div>
+<!-- </div> -->
+</div>
